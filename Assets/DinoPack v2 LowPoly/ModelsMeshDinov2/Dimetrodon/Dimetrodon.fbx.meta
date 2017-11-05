@@ -1,0 +1,896 @@
+fileFormatVersion: 2
+guid: 27d33b2a89bb98d4fb58139b8bb782bc
+timeCreated: 1490686528
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Dimetrodon
+    100004: //RootNode
+    100006: DimetrodonSkeleton
+    100008: footLeft1
+    100010: footLeft1_end
+    100012: footLeft2
+    100014: footLeft2_end
+    100016: footRight1
+    100018: footRight1_end
+    100020: FootRight2
+    100022: FootRight2_end
+    100024: head
+    100026: legLeft1
+    100028: legLeft2
+    100030: legLeft3
+    100032: legLeft4
+    100034: legRight1
+    100036: legRight2
+    100038: legRight3
+    100040: legRight4
+    100042: mouth
+    100044: neck1
+    100046: neck2
+    100048: tail1
+    100050: tail2
+    100052: tail3
+    100054: tail4
+    100056: tail5
+    100058: tail5_end
+    100060: tongue2
+    100062: tongue3
+    100064: tongue4
+    100066: tongue4_end
+    100068: Torso
+    100070: transformers combiner wars MENASOR
+    400000: Body
+    400002: Dimetrodon
+    400004: //RootNode
+    400006: DimetrodonSkeleton
+    400008: footLeft1
+    400010: footLeft1_end
+    400012: footLeft2
+    400014: footLeft2_end
+    400016: footRight1
+    400018: footRight1_end
+    400020: FootRight2
+    400022: FootRight2_end
+    400024: head
+    400026: legLeft1
+    400028: legLeft2
+    400030: legLeft3
+    400032: legLeft4
+    400034: legRight1
+    400036: legRight2
+    400038: legRight3
+    400040: legRight4
+    400042: mouth
+    400044: neck1
+    400046: neck2
+    400048: tail1
+    400050: tail2
+    400052: tail3
+    400054: tail4
+    400056: tail5
+    400058: tail5_end
+    400060: tongue2
+    400062: tongue3
+    400064: tongue4
+    400066: tongue4_end
+    400068: Torso
+    400070: transformers combiner wars MENASOR
+    4300000: Dimetrodon
+    7400000: attack
+    7400002: death
+    7400004: eat
+    7400006: hurt
+    7400008: idle
+    7400010: run
+    7400012: walk
+    7400014: DimetrodonSkeleton|attack
+    7400016: DimetrodonSkeleton|death
+    7400018: DimetrodonSkeleton|eat
+    7400020: DimetrodonSkeleton|hurt
+    7400022: DimetrodonSkeleton|idle
+    7400024: DimetrodonSkeleton|run
+    7400026: DimetrodonSkeleton|walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Dimetrodon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: attack
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dimetrodon
+        weight: 1
+      - path: DimetrodonSkeleton
+        weight: 1
+      - path: DimetrodonSkeleton/Torso
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1/footLeft1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1/footRight1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4/tongue4_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5/tail5_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: death
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dimetrodon
+        weight: 1
+      - path: DimetrodonSkeleton
+        weight: 1
+      - path: DimetrodonSkeleton/Torso
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1/footLeft1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1/footRight1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4/tongue4_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5/tail5_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: eat
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dimetrodon
+        weight: 1
+      - path: DimetrodonSkeleton
+        weight: 1
+      - path: DimetrodonSkeleton/Torso
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1/footLeft1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1/footRight1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4/tongue4_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5/tail5_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: hurt
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dimetrodon
+        weight: 1
+      - path: DimetrodonSkeleton
+        weight: 1
+      - path: DimetrodonSkeleton/Torso
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1/footLeft1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1/footRight1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4/tongue4_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5/tail5_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 285
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dimetrodon
+        weight: 1
+      - path: DimetrodonSkeleton
+        weight: 1
+      - path: DimetrodonSkeleton/Torso
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1/footLeft1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1/footRight1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4/tongue4_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5/tail5_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dimetrodon
+        weight: 1
+      - path: DimetrodonSkeleton
+        weight: 1
+      - path: DimetrodonSkeleton/Torso
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1/footLeft1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1/footRight1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4/tongue4_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5/tail5_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dimetrodon
+        weight: 1
+      - path: DimetrodonSkeleton
+        weight: 1
+      - path: DimetrodonSkeleton/Torso
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legLeft1/legLeft2/footLeft1/footLeft1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/legRight1/legRight2/footRight1/footRight1_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/Body/neck1/neck2/head/mouth/transformers combiner
+          wars MENASOR/tongue2/tongue3/tongue4/tongue4_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legLeft3/legLeft4/footLeft2/footLeft2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/legRight3/legRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: DimetrodonSkeleton/Torso/tail1/tail2/tail3/tail4/tail5/tail5_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

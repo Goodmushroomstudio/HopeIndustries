@@ -1,0 +1,733 @@
+fileFormatVersion: 2
+guid: 03c85e1f6f7ca004ea217ac942897da4
+timeCreated: 1490686526
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: anchilosauro
+    100004: anchilosauroSkeleton
+    100006: Body1
+    100008: Body2
+    100010: FootLeft1
+    100012: FootLeft1_end
+    100014: FootLeft2
+    100016: FootLeft2_end
+    100018: FootRight1
+    100020: FootRight1_end
+    100022: FootRight2
+    100024: FootRight2_end
+    100026: Head
+    100028: Jaw
+    100030: Jaw_end
+    100032: LegLeft1
+    100034: LegLeft2
+    100036: LegLeft3
+    100038: LegLeft4
+    100040: LegRight1
+    100042: LegRight2
+    100044: LegRight3
+    100046: LegRight4
+    100048: Tail1
+    100050: Tail2
+    100052: Tail3
+    100054: Tail3_end
+    400000: //RootNode
+    400002: anchilosauro
+    400004: anchilosauroSkeleton
+    400006: Body1
+    400008: Body2
+    400010: FootLeft1
+    400012: FootLeft1_end
+    400014: FootLeft2
+    400016: FootLeft2_end
+    400018: FootRight1
+    400020: FootRight1_end
+    400022: FootRight2
+    400024: FootRight2_end
+    400026: Head
+    400028: Jaw
+    400030: Jaw_end
+    400032: LegLeft1
+    400034: LegLeft2
+    400036: LegLeft3
+    400038: LegLeft4
+    400040: LegRight1
+    400042: LegRight2
+    400044: LegRight3
+    400046: LegRight4
+    400048: Tail1
+    400050: Tail2
+    400052: Tail3
+    400054: Tail3_end
+    4300000: anchilosauro
+    7400000: attack
+    7400002: death
+    7400004: eat
+    7400006: hurt
+    7400008: idle
+    7400010: run
+    7400012: walk
+    7400014: anchilosauroSkeleton|attack
+    7400016: anchilosauroSkeleton|death
+    7400018: anchilosauroSkeleton|eat
+    7400020: anchilosauroSkeleton|hurt
+    7400022: anchilosauroSkeleton|idle
+    7400024: anchilosauroSkeleton|run
+    7400026: anchilosauroSkeleton|walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: anchilosauro
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: attack
+      firstFrame: 0
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anchilosauro
+        weight: 1
+      - path: anchilosauroSkeleton
+        weight: 1
+      - path: anchilosauroSkeleton/Body1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw/Jaw_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1/FootLeft1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1/FootRight1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: death
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anchilosauro
+        weight: 1
+      - path: anchilosauroSkeleton
+        weight: 1
+      - path: anchilosauroSkeleton/Body1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw/Jaw_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1/FootLeft1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1/FootRight1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: eat
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anchilosauro
+        weight: 1
+      - path: anchilosauroSkeleton
+        weight: 1
+      - path: anchilosauroSkeleton/Body1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw/Jaw_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1/FootLeft1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1/FootRight1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: hurt
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anchilosauro
+        weight: 1
+      - path: anchilosauroSkeleton
+        weight: 1
+      - path: anchilosauroSkeleton/Body1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw/Jaw_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1/FootLeft1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1/FootRight1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 159
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anchilosauro
+        weight: 1
+      - path: anchilosauroSkeleton
+        weight: 1
+      - path: anchilosauroSkeleton/Body1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw/Jaw_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1/FootLeft1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1/FootRight1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anchilosauro
+        weight: 1
+      - path: anchilosauroSkeleton
+        weight: 1
+      - path: anchilosauroSkeleton/Body1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw/Jaw_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1/FootLeft1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1/FootRight1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anchilosauro
+        weight: 1
+      - path: anchilosauroSkeleton
+        weight: 1
+      - path: anchilosauroSkeleton/Body1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/Head/Jaw/Jaw_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegLeft1/LegLeft2/FootLeft1/FootLeft1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Body2/LegRight1/LegRight2/FootRight1/FootRight1_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegLeft3/LegLeft4/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/LegRight3/LegRight4/FootRight2/FootRight2_end
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3
+        weight: 1
+      - path: anchilosauroSkeleton/Body1/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

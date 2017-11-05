@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="example_5-star_grayscale" size="500.000000 350.000000" />
+    <ImageTarget name="YPrdjye" size="1920.000000 1199.718628" />
+    <ImageTarget name="xOlzpoE" size="1920.000000 1200.000000" />
+    <ImageTarget name="xe6mMfy" size="1920.000000 1200.000000" />
+    <ImageTarget name="omhFF52" size="1920.000000 1080.000000" />
+    <ImageTarget name="nhHTGcm" size="1920.000000 1080.000000" />
+    <ImageTarget name="LvcsNAL" size="1920.000000 1200.000000" />
+    <ImageTarget name="LTjkixq" size="1920.000000 1080.000000" />
+    <ImageTarget name="gKqF3Wy" size="1920.000000 1200.000000" />
+    <ImageTarget name="fgYaaSf" size="1920.000000 1200.000000" />
+    <ImageTarget name="fF1fhAD" size="1920.000000 1080.000000" />
+    <ImageTarget name="e5JyQbz" size="1920.000000 1080.000000" />
+    <ImageTarget name="DsdhYo3" size="1920.000000 1200.000000" />
+    <ImageTarget name="CwAVCCE" size="1920.000000 1200.000000" />
+    <ImageTarget name="9G7Eioq" size="1920.000000 1080.000000" />
+    <ImageTarget name="0pej1d5" size="1920.000000 1200.000000" />
+    <ImageTarget name="Xvh5vYv" size="1920.000000 1080.000000" />
+    <ImageTarget name="X44jnaB" size="1920.000000 1080.000000" />
+    <ImageTarget name="LSSBZyM" size="1920.000000 1080.000000" />
+    <ImageTarget name="nAZprzt" size="1920.000000 1080.000000" />
+    <ImageTarget name="TuhdKtv" size="1920.000000 1080.000000" />
+  </Tracking>
+</QCARConfig>

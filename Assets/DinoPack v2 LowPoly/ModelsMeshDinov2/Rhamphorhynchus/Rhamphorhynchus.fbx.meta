@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 5939e7acee69e30428ff175c2741287d
+timeCreated: 1490686530
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: footLeft
+    100004: footLeft_end
+    100006: footRight
+    100008: footRight_end
+    100010: Head
+    100012: legLeft1
+    100014: legLeft2
+    100016: legRight1
+    100018: legRight2
+    100020: Mouth
+    100022: Mouth_end
+    100024: Neck
+    100026: //RootNode
+    100028: Rhamphorhynchus
+    100030: RhamphorhynchusSkeleton
+    100032: tail1
+    100034: tail2
+    100036: tail3
+    100038: tail4
+    100040: tail4_end
+    100042: Wing1
+    100044: Wing2
+    100046: Wing3
+    100048: Wing3_end
+    100050: Wing4
+    100052: Wing5
+    100054: Wing6
+    100056: Wing6_end
+    400000: Body
+    400002: footLeft
+    400004: footLeft_end
+    400006: footRight
+    400008: footRight_end
+    400010: Head
+    400012: legLeft1
+    400014: legLeft2
+    400016: legRight1
+    400018: legRight2
+    400020: Mouth
+    400022: Mouth_end
+    400024: Neck
+    400026: //RootNode
+    400028: Rhamphorhynchus
+    400030: RhamphorhynchusSkeleton
+    400032: tail1
+    400034: tail2
+    400036: tail3
+    400038: tail4
+    400040: tail4_end
+    400042: Wing1
+    400044: Wing2
+    400046: Wing3
+    400048: Wing3_end
+    400050: Wing4
+    400052: Wing5
+    400054: Wing6
+    400056: Wing6_end
+    4300000: Rhamphorhynchus
+    7400000: attackfly
+    7400002: death
+    7400004: deathfly
+    7400006: eat
+    7400008: idle
+    7400010: fly
+    7400012: walk
+    7400014: attackfly
+    7400016: death
+    7400018: deathfly
+    7400020: eat
+    7400022: idle
+    7400024: fly
+    7400026: walk
+    7400028: hurt
+    7400030: hurtfly
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Rhamphorhynchus
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attackfly
+      takeName: RhamphorhynchusSkeleton|attackfly
+      firstFrame: 0
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rhamphorhynchus
+        weight: 1
+      - path: RhamphorhynchusSkeleton
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft/footLeft_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight/footRight_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3/Wing3_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6/Wing6_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: RhamphorhynchusSkeleton|death
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rhamphorhynchus
+        weight: 1
+      - path: RhamphorhynchusSkeleton
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft/footLeft_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight/footRight_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3/Wing3_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6/Wing6_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: deathfly
+      takeName: RhamphorhynchusSkeleton|deathfly
+      firstFrame: 0
+      lastFrame: 107
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rhamphorhynchus
+        weight: 1
+      - path: RhamphorhynchusSkeleton
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft/footLeft_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight/footRight_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3/Wing3_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6/Wing6_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: RhamphorhynchusSkeleton|eat
+      firstFrame: 0
+      lastFrame: 107
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rhamphorhynchus
+        weight: 1
+      - path: RhamphorhynchusSkeleton
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft/footLeft_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight/footRight_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3/Wing3_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6/Wing6_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: RhamphorhynchusSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rhamphorhynchus
+        weight: 1
+      - path: RhamphorhynchusSkeleton
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft/footLeft_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight/footRight_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3/Wing3_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6/Wing6_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurtfly
+      takeName: RhamphorhynchusSkeleton|hurtfly
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rhamphorhynchus
+        weight: 1
+      - path: RhamphorhynchusSkeleton
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft/footLeft_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight/footRight_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3/Wing3_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6/Wing6_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: RhamphorhynchusSkeleton|idle
+      firstFrame: 0
+      lastFrame: 301
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rhamphorhynchus
+        weight: 1
+      - path: RhamphorhynchusSkeleton
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft/footLeft_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight/footRight_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3/Wing3_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6/Wing6_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly
+      takeName: RhamphorhynchusSkeleton|idlefly
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rhamphorhynchus
+        weight: 1
+      - path: RhamphorhynchusSkeleton
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft/footLeft_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight/footRight_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3/Wing3_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6/Wing6_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: RhamphorhynchusSkeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rhamphorhynchus
+        weight: 1
+      - path: RhamphorhynchusSkeleton
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legLeft1/legLeft2/footLeft/footLeft_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/legRight1/legRight2/footRight/footRight_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing1/Wing2/Wing3/Wing3_end
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6
+        weight: 1
+      - path: RhamphorhynchusSkeleton/Body/Wing4/Wing5/Wing6/Wing6_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

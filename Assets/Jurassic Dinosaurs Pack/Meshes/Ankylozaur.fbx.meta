@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 349a50f580cba38459c89f5c3d6d9af2
+timeCreated: 1502096953
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: All
+    100002: //RootNode
+    100004: Ankylozaur
+    100006: Ankylozaur_LOD0
+    100008: Ankylozaur_LOD1
+    100010: Ankylozaur_LOD2
+    100012: BFoot.L
+    100014: BFoot.L_end
+    100016: BFoot.R
+    100018: BFoot.R_end
+    100020: BLeg.L
+    100022: BLeg.L.001
+    100024: BLeg.L.002
+    100026: BLeg.R
+    100028: BLeg.R.001
+    100030: BLeg.R.002
+    100032: BSpin
+    100034: Down_face
+    100036: Down_face_end
+    100038: FFoot.L
+    100040: FFoot.L_end
+    100042: FFoot.R
+    100044: FFoot.R_end
+    100046: FLeg.L
+    100048: FLeg.L.001
+    100050: FLeg.L.002
+    100052: FLeg.R
+    100054: FLeg.R.001
+    100056: FLeg.R.002
+    100058: FSpin
+    100060: Head
+    100062: IK_BFoot.L
+    100064: IK_BFoot.L_end
+    100066: IK_BFoot.R
+    100068: IK_BFoot.R_end
+    100070: IK_FFoot.L
+    100072: IK_FFoot.L_end
+    100074: IK_FFoot.R
+    100076: IK_FFoot.R_end
+    100078: Neck
+    100080: Tail
+    100082: Tail.001
+    100084: Tail.002
+    100086: Tail.003
+    100088: Tail.004
+    100090: Tail.005
+    100092: Tail.006
+    100094: Tail.006_end
+    100096: UP_face
+    100098: UP_face_end
+    400000: All
+    400002: //RootNode
+    400004: Ankylozaur
+    400006: Ankylozaur_LOD0
+    400008: Ankylozaur_LOD1
+    400010: Ankylozaur_LOD2
+    400012: BFoot.L
+    400014: BFoot.L_end
+    400016: BFoot.R
+    400018: BFoot.R_end
+    400020: BLeg.L
+    400022: BLeg.L.001
+    400024: BLeg.L.002
+    400026: BLeg.R
+    400028: BLeg.R.001
+    400030: BLeg.R.002
+    400032: BSpin
+    400034: Down_face
+    400036: Down_face_end
+    400038: FFoot.L
+    400040: FFoot.L_end
+    400042: FFoot.R
+    400044: FFoot.R_end
+    400046: FLeg.L
+    400048: FLeg.L.001
+    400050: FLeg.L.002
+    400052: FLeg.R
+    400054: FLeg.R.001
+    400056: FLeg.R.002
+    400058: FSpin
+    400060: Head
+    400062: IK_BFoot.L
+    400064: IK_BFoot.L_end
+    400066: IK_BFoot.R
+    400068: IK_BFoot.R_end
+    400070: IK_FFoot.L
+    400072: IK_FFoot.L_end
+    400074: IK_FFoot.R
+    400076: IK_FFoot.R_end
+    400078: Neck
+    400080: Tail
+    400082: Tail.001
+    400084: Tail.002
+    400086: Tail.003
+    400088: Tail.004
+    400090: Tail.005
+    400092: Tail.006
+    400094: Tail.006_end
+    400096: UP_face
+    400098: UP_face_end
+    4300000: Ankylozaur_LOD0
+    4300002: Ankylozaur_LOD1
+    4300004: Ankylozaur_LOD2
+    7400000: Ankylozaur|Attack
+    7400002: Ankylozaur|Eat
+    7400004: Ankylozaur|Idle
+    7400006: Ankylozaur|Idle2
+    7400008: Ankylozaur|run
+    7400010: Ankylozaur|taunt
+    7400012: Ankylozaur|walk
+    9500000: //RootNode
+    13700000: Ankylozaur_LOD0
+    13700002: Ankylozaur_LOD1
+    13700004: Ankylozaur_LOD2
+    20500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

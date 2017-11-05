@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 1ecc2cd9df71df54496e4ecdfc65763d
+timeCreated: 1502097720
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: All
+    100002: BFoot.L
+    100004: BFoot.L_end
+    100006: BFoot.R
+    100008: BFoot.R_end
+    100010: BLeg.L
+    100012: BLeg.L.001
+    100014: BLeg.L.002
+    100016: BLeg.R
+    100018: BLeg.R.001
+    100020: BLeg.R.002
+    100022: BSpin
+    100024: Down_face
+    100026: Down_face_end
+    100028: FFoot.L
+    100030: FFoot.L_end
+    100032: FFoot.R
+    100034: FFoot.R_end
+    100036: FLeg.L
+    100038: FLeg.L.001
+    100040: FLeg.L.002
+    100042: FLeg.R
+    100044: FLeg.R.001
+    100046: FLeg.R.002
+    100048: FSpin
+    100050: Head
+    100052: IK_BFoot.L
+    100054: IK_BFoot.L_end
+    100056: IK_BFoot.R
+    100058: IK_BFoot.R_end
+    100060: IK_FFoot.L
+    100062: IK_FFoot.L_end
+    100064: IK_FFoot.R
+    100066: IK_FFoot.R_end
+    100068: Neck
+    100070: //RootNode
+    100072: Nodosaurus
+    100074: Nodosaurus_LOD0
+    100076: Nodosaurus_LOD1
+    100078: Nodosaurus_LOD2
+    100080: Tail
+    100082: Tail.001
+    100084: Tail.002
+    100086: Tail.003
+    100088: Tail.004
+    100090: Tail.005
+    100092: Tail.006
+    100094: Tail.006_end
+    100096: UP_face
+    100098: UP_face_end
+    400000: All
+    400002: BFoot.L
+    400004: BFoot.L_end
+    400006: BFoot.R
+    400008: BFoot.R_end
+    400010: BLeg.L
+    400012: BLeg.L.001
+    400014: BLeg.L.002
+    400016: BLeg.R
+    400018: BLeg.R.001
+    400020: BLeg.R.002
+    400022: BSpin
+    400024: Down_face
+    400026: Down_face_end
+    400028: FFoot.L
+    400030: FFoot.L_end
+    400032: FFoot.R
+    400034: FFoot.R_end
+    400036: FLeg.L
+    400038: FLeg.L.001
+    400040: FLeg.L.002
+    400042: FLeg.R
+    400044: FLeg.R.001
+    400046: FLeg.R.002
+    400048: FSpin
+    400050: Head
+    400052: IK_BFoot.L
+    400054: IK_BFoot.L_end
+    400056: IK_BFoot.R
+    400058: IK_BFoot.R_end
+    400060: IK_FFoot.L
+    400062: IK_FFoot.L_end
+    400064: IK_FFoot.R
+    400066: IK_FFoot.R_end
+    400068: Neck
+    400070: //RootNode
+    400072: Nodosaurus
+    400074: Nodosaurus_LOD0
+    400076: Nodosaurus_LOD1
+    400078: Nodosaurus_LOD2
+    400080: Tail
+    400082: Tail.001
+    400084: Tail.002
+    400086: Tail.003
+    400088: Tail.004
+    400090: Tail.005
+    400092: Tail.006
+    400094: Tail.006_end
+    400096: UP_face
+    400098: UP_face_end
+    4300000: Nodosaurus_LOD0
+    4300002: Nodosaurus_LOD1
+    4300004: Nodosaurus_LOD2
+    7400000: Nodosaurus|Attack
+    7400002: Nodosaurus|Eat
+    7400004: Nodosaurus|Idle
+    7400006: Nodosaurus|Idle2
+    7400008: Nodosaurus|run
+    7400010: Nodosaurus|taunt
+    7400012: Nodosaurus|walk
+    9500000: //RootNode
+    13700000: Nodosaurus_LOD0
+    13700002: Nodosaurus_LOD1
+    13700004: Nodosaurus_LOD2
+    20500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
